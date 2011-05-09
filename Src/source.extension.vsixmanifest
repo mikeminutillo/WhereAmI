@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="WhereAmI.Wolfbyte.6e3b7d65-b6a0-473b-b21e-cd8eb569b885">
+    <Name>Where Am I</Name>
+    <Author>Wolfbyte</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">Simple extension to add the full file path in a border at the bottom of the editor pane. Clicking it opens an explorer window with the file selected</Description>
+    <Locale>1033</Locale>
+    <Icon>page_green.png</Icon>
+    <PreviewImage>Preview.png</PreviewImage>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <MefComponent>|%CurrentProject%|</MefComponent>
+  </Content>
+</Vsix>
