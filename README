@@ -1,0 +1,1 @@
+Where Am I is a simple extension that adds missing functionality to Visual Studio. When you hover the mouse over a tab it gives you the full file path but I want it all the time in a toolbar at the bottom of my editor window. This extension gives me that. As an added bonus, when you click the path it opens an explorer window with the file selected.
